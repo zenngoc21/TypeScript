@@ -1,4 +1,4 @@
-// Bai 19: Minh hoa method overriding va tinh da hinh (polymorphism)
+
 class Animal {
   constructor(protected name: string) {}
 
@@ -19,8 +19,7 @@ class Cat extends Animal {
   }
 }
 
-// Demo: cung mot loi goi makeSound() nhung ket qua khac nhau tuy vao doi tuong
 const animals: Animal[] = [new Dog("Milu"), new Cat("Mimi"), new Animal("Vat gi do")];
 animals.forEach((a) => a.makeSound());
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

@@ -1,4 +1,4 @@
-// Bai 24: Abstract class Appliance voi turnOn(). Implement Fan va AirConditioner
+
 abstract class Appliance {
   abstract turnOn(): void;
 
@@ -19,11 +19,10 @@ class AirConditioner extends Appliance {
   }
 }
 
-// Demo
 const fan1 = new Fan();
 const ac1 = new AirConditioner();
 fan1.turnOn();
 ac1.turnOn();
 ac1.turnOff();
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

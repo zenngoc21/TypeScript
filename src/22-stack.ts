@@ -1,4 +1,4 @@
-// Bai 22: Class Stack voi push, pop, peek, isEmpty
+
 class Stack<T> {
   private items: T[] = [];
 
@@ -19,7 +19,6 @@ class Stack<T> {
   }
 }
 
-// Demo
 const stack = new Stack<number>();
 stack.push(1);
 stack.push(2);
@@ -28,4 +27,4 @@ console.log(`Peek: ${stack.peek()}`);
 console.log(`Pop: ${stack.pop()}`);
 console.log(`isEmpty: ${stack.isEmpty()}`);
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

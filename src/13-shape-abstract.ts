@@ -1,4 +1,4 @@
-// Bai 13: Abstract class Shape voi method area(). Implement Square va Circle
+
 abstract class Shape {
   abstract area(): number;
 
@@ -27,10 +27,9 @@ class Circle extends Shape {
   }
 }
 
-// Demo
 const square1 = new Square(4);
 const circle1 = new Circle(3);
 square1.describe();
 circle1.describe();
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

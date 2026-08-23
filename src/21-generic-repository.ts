@@ -1,4 +1,4 @@
-// Bai 21: Generic Repository class voi add(), getAll()
+
 class Repository<T> {
   private items: T[] = [];
 
@@ -11,7 +11,6 @@ class Repository<T> {
   }
 }
 
-// Demo
 interface Task {
   title: string;
   done: boolean;
@@ -22,4 +21,4 @@ taskRepo.add({ title: "Hoc TypeScript", done: false });
 taskRepo.add({ title: "Lam bai tap OOP", done: true });
 console.log(taskRepo.getAll());
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {}; 

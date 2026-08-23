@@ -1,4 +1,4 @@
-// Bai 28: Class Animal voi protected method makeSound(). Dog va Cat override
+
 class Animal {
   constructor(protected name: string) {}
 
@@ -6,7 +6,6 @@ class Animal {
     return "...";
   }
 
-  // Method public de kich hoat makeSound() tu ben ngoai
   speak(): void {
     console.log(`${this.name}: ${this.makeSound()}`);
   }
@@ -24,11 +23,9 @@ class Cat extends Animal {
   }
 }
 
-// Demo
 const dog1 = new Dog("Milu");
 const cat1 = new Cat("Mimi");
 dog1.speak();
 cat1.speak();
-// dog1.makeSound() -> Loi: 'makeSound' la protected, khong goi truc tiep tu ben ngoai
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

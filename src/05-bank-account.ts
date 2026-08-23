@@ -1,4 +1,4 @@
-// Bai 5: Class BankAccount voi balance, deposit(), withdraw()
+
 class BankAccount {
   private balance: number;
 
@@ -29,10 +29,9 @@ class BankAccount {
   }
 }
 
-// Demo
 const account = new BankAccount(100);
 account.deposit(50);
 account.withdraw(30);
 console.log(`So du cuoi cung: ${account.getBalance()}`);
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

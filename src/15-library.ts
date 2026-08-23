@@ -1,4 +1,4 @@
-// Bai 15: Class Library luu tru Book va User, co method them sach
+
 class Book {
   constructor(public title: string, public author: string) {}
 }
@@ -27,10 +27,9 @@ class Library {
   }
 }
 
-// Demo
 const library = new Library();
 library.addBook(new Book("Clean Code", "Robert Martin"));
 library.addUser(new User("Vo Thi G"));
 library.listBooks();
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

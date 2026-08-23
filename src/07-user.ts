@@ -1,4 +1,4 @@
-// Bai 7: Class User voi private property name va getter/setter
+
 class User {
   private _name: string;
 
@@ -19,10 +19,9 @@ class User {
   }
 }
 
-// Demo
 const user1 = new User("Le Van D");
 console.log(user1.name);
 user1.name = "Le Van D (da doi ten)";
 console.log(user1.name);
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

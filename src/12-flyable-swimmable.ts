@@ -1,4 +1,4 @@
-// Bai 12: Interfaces Flyable va Swimmable, implement trong Bird va Fish
+
 interface Flyable {
   fly(): void;
 }
@@ -19,7 +19,6 @@ class Fish implements Swimmable {
   }
 }
 
-// Mot con vat co the vua bay vua boi (vd: vit)
 class Duck implements Flyable, Swimmable {
   fly(): void {
     console.log("Vit dang bay");
@@ -29,7 +28,6 @@ class Duck implements Flyable, Swimmable {
   }
 }
 
-// Demo
 const bird1 = new Bird();
 const fish1 = new Fish();
 const duck1 = new Duck();
@@ -38,4 +36,4 @@ fish1.swim();
 duck1.fly();
 duck1.swim();
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

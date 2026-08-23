@@ -1,4 +1,4 @@
-// Bai 20: Interface Vehicle, implement trong Car va Bike
+
 interface Vehicle {
   brand: string;
   start(): void;
@@ -20,8 +20,7 @@ class Bike implements Vehicle {
   }
 }
 
-// Demo
 const vehicles: Vehicle[] = [new Car("Honda"), new Bike("Giant")];
 vehicles.forEach((v) => v.start());
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};

@@ -1,4 +1,4 @@
-// Bai 11: Base class Animal. Extend Dog va Cat voi bark() va meow()
+
 class Animal {
   constructor(protected name: string) {}
 }
@@ -15,10 +15,9 @@ class Cat extends Animal {
   }
 }
 
-// Demo
 const dog1 = new Dog("Milu");
 const cat1 = new Cat("Mimi");
 dog1.bark();
 cat1.meow();
 
-export {}; // Bien file nay thanh module de tranh xung dot ten class giua cac file
+export {};
